@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------- *
+ * "Living receipt" design tokens.
+ * Light = warm paper + ink. Dark = "carbon copy" (ink paper, cream text).
+ * Every colour used by a component must resolve through one of these
+ * custom properties — never a hardcoded hex in component code.
+ * ---------------------------------------------------------------------- */
+@theme {
+  --color-paper: #f4efe6;
+  --color-receipt: #fbf8f2;
+  --color-ink: #1b1a17;
+  --color-ink-soft: #6b655c;
+  --color-ink-faint: #6f685d;
+  --color-rule: #d8d0be;
+  --color-tomato: #d9432b;
+  --color-tomato-soft: #f3d9d2;
+  /* Text-safe variant of --color-tomato — ≥4.5:1 on paper, receipt and
+     tomato-soft (the brighter --color-tomato fails all three; keep it for
+     borders/decorative rules only). See app/globals.css contrast table in
+     the F4 report. */
+  --color-tomato-ink: #ad331f;
+  --color-sage: #4f7457;
+  --color-sage-soft: #dce6dc;
+  --color-amber: #8a5f13;
+  --color-amber-soft: #efe0c4;
+
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-sans: var(--font-inter-tight), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-sweep: sweep 1.6s ease-out forwards;
+  --animate-thump: thump 0.5s cubic-bezier(0.2, 1.6, 0.4, 1) forwards;
+  --animate-blip: blip 2.4s ease-in-out infinite;
+  --animate-print: print 0.4s ease-out both;
+  --animate-feed: feed 3.2s ease-in-out infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #17140f;
+    --color-receipt: #201c15;
+    --color-ink: #f1ead9;
+    --color-ink-soft: #b9af9c;
+    --color-ink-faint: #928877;
+    --color-rule: #3b3426;
+    --color-tomato: #ff7256;
+    --color-tomato-soft: #402019;
+    /* Dark --color-tomato already clears 4.5:1 on paper/receipt/tomato-soft,
+       so the text-safe variant reuses it. */
+    --color-tomato-ink: #ff7256;
+    --color-sage: #93c298;
+    --color-sage-soft: #223223;
+    --color-amber: #dba847;
+    --color-amber-soft: #362a13;
+  }
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  border-color: var(--color-rule);
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  position: relative;
+  min-height: 100dvh;
+}
+
+/* Grain: inline SVG feTurbulence noise, layered over the paper only. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-color-scheme: dark) {
+  body::before {
+    opacity: 0.07;
+    mix-blend-mode: overlay;
+  }
+}
+
+#app-root {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  background: var(--color-tomato-soft);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-tomato);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Perforation rule between printed receipt sections. */
+.perforation {
+  position: relative;
+  border: none;
+  height: 1px;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--color-rule) 0,
+    var(--color-rule) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+/* Small-caps mono label used sparingly for genuine receipt-printed text
+   (section headers, item counts) — not a decorative default. */
+.receipt-label {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.72rem;
+  color: var(--color-ink-soft);
+}
+
+@keyframes sweep {
+  from {
+    stroke-dashoffset: var(--sweep-length, 600);
+    opacity: 0.2;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes thump {
+  0% {
+    transform: rotate(var(--stamp-rotate, -6deg)) scale(2.2);
+    opacity: 0;
+  }
+  55% {
+    transform: rotate(var(--stamp-rotate, -6deg)) scale(0.94);
+    opacity: 1;
+  }
+  75% {
+    transform: rotate(var(--stamp-rotate, -6deg)) scale(1.04);
+  }
+  100% {
+    transform: rotate(var(--stamp-rotate, -6deg)) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes blip {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+}
+
+@keyframes print {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes feed {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

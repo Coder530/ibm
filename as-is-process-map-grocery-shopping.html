@@ -1,0 +1,498 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>As-Is Journey Map — Grocery Shopping</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    background: #f4f6fa;
+    color: #1f2328;
+    font-size: 13px;
+    line-height: 1.55;
+    padding: 28px 16px 52px;
+  }
+
+  .page { max-width: 960px; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 20px; }
+  header h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.2px; }
+  header p  { font-size: 13px; color: #57606a; margin-top: 3px; }
+
+  /* LEGEND */
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 10px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.3px;
+    padding: 2px 7px; border-radius: 4px;
+  }
+  .b-price  { background: #dbeafe; color: #1d4ed8; }
+  .b-brand  { background: #ede9fe; color: #6d28d9; }
+  .b-ingred { background: #dcfce7; color: #15803d; }
+  .b-misc   { background: #fef9c3; color: #92400e; }
+  .b-online { background: #f0f9ff; color: #0369a1; border: 1px solid #bae6fd; }
+  .b-store  { background: #fdf4ff; color: #86198f; border: 1px solid #e9d5ff; }
+
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11.5px; color: #1f2328; }
+
+  /* FLOW */
+  .flow { display: flex; flex-direction: column; gap: 0; }
+
+  .step {
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    gap: 0;
+    border: 1px solid #e5e7eb;
+    border-bottom: none;
+    background: #fff;
+  }
+  .step:first-child { border-radius: 8px 8px 0 0; }
+  .step:last-child  { border-bottom: 1px solid #e5e7eb; border-radius: 0 0 8px 8px; }
+
+  .step-meta {
+    padding: 16px 18px;
+    border-right: 1px solid #e5e7eb;
+    background: #f7f8fa;
+    display: flex; flex-direction: column; gap: 5px;
+  }
+  .step-num  { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #8b949e; }
+  .step-icon { font-size: 22px; line-height: 1; margin-bottom: 2px; }
+  .step-title { font-size: 14px; font-weight: 700; color: #1f2328; }
+  .step-desc  { font-size: 12px; color: #57606a; margin-top: 2px; }
+  .channel-pills { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+
+  .step-body {
+    padding: 16px 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .col-label {
+    font-size: 10px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.7px;
+    color: #8b949e; margin-bottom: 7px;
+  }
+
+  .action-list, .pain-list { list-style: none; padding: 0; margin: 0; }
+
+  .action-list li, .pain-list li {
+    font-size: 12.5px; padding: 4px 0 4px 14px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.05); color: #1f2328;
+  }
+  .action-list li:last-child, .pain-list li:last-child { border-bottom: none; }
+
+  .action-list li::before {
+    content: ""; position: absolute;
+    left: 0; top: 12px;
+    width: 5px; height: 5px; border-radius: 50%;
+    background: #c9d1d9;
+  }
+  .pain-list li::before {
+    content: "!";
+    position: absolute; left: 1px; top: 4px;
+    font-size: 9px; font-weight: 900; color: #ef4444;
+  }
+
+  /* connector */
+  .connector {
+    display: flex; align-items: center; justify-content: center;
+    height: 24px; position: relative;
+  }
+  .connector::before {
+    content: ""; position: absolute;
+    top: 0; bottom: 0; left: 50%;
+    width: 2px; background: #c9d1d9;
+    transform: translateX(-50%);
+  }
+  .connector-arrow {
+    background: #fff; border: 2px solid #c9d1d9;
+    border-radius: 50%; width: 24px; height: 24px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; z-index: 2; position: relative;
+  }
+
+  /* CHANNEL CALLOUT */
+  .channel-callout {
+    margin-top: 16px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  }
+  .channel-box {
+    border-radius: 8px; padding: 13px 16px; border: 1.5px solid;
+  }
+  .channel-box.online { background: #f0f9ff; border-color: #bae6fd; }
+  .channel-box.store  { background: #fdf4ff; border-color: #e9d5ff; }
+  .channel-box h4 {
+    font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.6px;
+    margin-bottom: 8px; padding-bottom: 6px;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+  }
+  .online h4 { color: #0369a1; }
+  .store  h4 { color: #86198f; }
+  .channel-box ul { list-style: none; }
+  .channel-box ul li {
+    font-size: 12px; padding: 3px 0 3px 13px;
+    position: relative; color: #1f2328;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+  .channel-box ul li:last-child { border-bottom: none; }
+  .channel-box ul li::before {
+    content: ""; position: absolute;
+    left: 0; top: 11px;
+    width: 5px; height: 5px; border-radius: 50%;
+  }
+  .online li::before { background: #7dd3fc; }
+  .store  li::before { background: #d8b4fe; }
+
+  /* SUMMARY */
+  .summary {
+    margin-top: 16px; background: #fff;
+    border: 1px solid #e5e7eb; border-radius: 8px;
+    padding: 15px 18px;
+  }
+  .summary h3 {
+    font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.8px;
+    margin-bottom: 10px; padding-bottom: 8px;
+    border-bottom: 1px solid #e5e7eb; color: #1f2328;
+  }
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; }
+  .summary-item { border-radius: 6px; padding: 10px 12px; border: 1px solid #e5e7eb; }
+  .summary-item h4 { font-size: 11px; font-weight: 700; margin-bottom: 5px; }
+  .summary-item p  { font-size: 11.5px; color: #57606a; line-height: 1.5; }
+  .si-price  { background: #eff6ff; }
+  .si-brand  { background: #f5f3ff; }
+  .si-ingred { background: #f0fdf4; }
+  .si-misc   { background: #fffbeb; }
+
+  footer { margin-top: 36px; text-align: center; font-size: 11px; color: #8b949e; border-top: 1px solid #e5e7eb; padding-top: 12px; }
+
+  @media (max-width: 620px) {
+    .step { grid-template-columns: 1fr; }
+    .step-meta { border-right: none; border-bottom: 1px solid #e5e7eb; }
+    .step-body { grid-template-columns: 1fr; }
+    .channel-callout, .summary-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>As-Is Process Map — Grocery Shopping</h1>
+    <p>Current end-to-end shopper journey  ·  In-Store &amp; Online  ·  All preference categories</p>
+  </header>
+
+  <div class="legend">
+    <span class="legend-item"><span class="badge b-price">Price</span> Cost &amp; value</span>
+    <span class="legend-item"><span class="badge b-brand">Brand</span> Brand loyalty</span>
+    <span class="legend-item"><span class="badge b-ingred">Ingred</span> Ingredient availability</span>
+    <span class="legend-item"><span class="badge b-misc">Misc</span> Organic / British / ethical</span>
+    <span class="legend-item"><span class="badge b-online">Online</span> Online-specific</span>
+    <span class="legend-item"><span class="badge b-store">In-Store</span> In-store specific</span>
+  </div>
+
+  <div class="flow">
+
+    
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">Step 01</div>
+        <div class="step-icon">📋</div>
+        <div class="step-title">Planning &amp; List Building</div>
+        <div class="step-desc">Shopper identifies what they need, sets a rough budget, and assembles a list based on meals, habits, and preferences.</div>
+        <div class="channel-pills"><span class="badge b-online">Online</span><span class="badge b-store">In-Store</span></div>
+      </div>
+      <div class="step-body">
+        <div>
+          <div class="col-label">Actions</div>
+          <ul class="action-list">
+            <li>Reviews fridge and cupboard stock</li>
+            <li>Plans meals for the week ahead</li>
+            <li>Writes a shopping list (app, paper, or memory)</li>
+            <li>Sets a rough budget target <span class="badge b-price">Price</span></li>
+            <li>Notes preferred brands for key items <span class="badge b-brand">Brand</span></li>
+            <li>Flags any specialist ingredients needed <span class="badge b-ingred">Ingred</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-label">Pain Points</div>
+          <ul class="pain-list">
+            <li>No live price data at planning stage — budget is a guess <span class="badge b-price">Price</span></li>
+            <li>Unsure which store stocks a specialist or seasonal ingredient <span class="badge b-ingred">Ingred</span></li>
+            <li>No alert system for preferred brand availability <span class="badge b-brand">Brand</span></li>
+            <li>Organic and British options not visible at planning stage <span class="badge b-misc">Misc</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="connector"><div class="connector-arrow">▼</div></div>
+
+    
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">Step 02</div>
+        <div class="step-icon">🗺️</div>
+        <div class="step-title">Store Selection</div>
+        <div class="step-desc">Shopper decides where to shop based on proximity, habit, expected price, or known stock availability.</div>
+        <div class="channel-pills"><span class="badge b-online">Online</span><span class="badge b-store">In-Store</span></div>
+      </div>
+      <div class="step-body">
+        <div>
+          <div class="col-label">Actions</div>
+          <ul class="action-list">
+            <li>Chooses supermarket chain based on habit or reputation</li>
+            <li>Checks if a specialist store is needed for niche ingredients <span class="badge b-ingred">Ingred</span></li>
+            <li>May plan visits to 2–3 stores to complete the list <span class="badge b-price">Price</span></li>
+            <li>Looks up whether a preferred brand is stocked <span class="badge b-brand">Brand</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-label">Pain Points</div>
+          <ul class="pain-list">
+            <li>No single tool compares prices across stores before travel <span class="badge b-price">Price</span></li>
+            <li>Multiple trips waste time and can negate any price savings <span class="badge b-price">Price</span></li>
+            <li>No way to confirm brand stock remotely before travelling <span class="badge b-brand">Brand</span></li>
+            <li>Organic and British ranges vary widely between chains <span class="badge b-misc">Misc</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="connector"><div class="connector-arrow">▼</div></div>
+
+    
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">Step 03</div>
+        <div class="step-icon">🔍</div>
+        <div class="step-title">Browse &amp; Search</div>
+        <div class="step-desc">Shopper navigates aisles or searches online to locate listed items.</div>
+        <div class="channel-pills"><span class="badge b-online">Online</span><span class="badge b-store">In-Store</span></div>
+      </div>
+      <div class="step-body">
+        <div>
+          <div class="col-label">Actions</div>
+          <ul class="action-list">
+            <li>Navigates aisles or uses store search bar</li>
+            <li>Scans shelves for preferred brand <span class="badge b-brand">Brand</span></li>
+            <li>Looks for origin or certification labels <span class="badge b-misc">Misc</span></li>
+            <li>Searches for niche or specialist ingredients <span class="badge b-ingred">Ingred</span></li>
+            <li>Scans promotional and sale tags <span class="badge b-price">Price</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-label">Pain Points</div>
+          <ul class="pain-list">
+            <li>Preferred brand out of stock — no alternative is suggested <span class="badge b-brand">Brand</span></li>
+            <li>Specialist ingredients absent or in unpredictable locations <span class="badge b-ingred">Ingred</span></li>
+            <li>Origin and certification labels are small and inconsistent <span class="badge b-misc">Misc</span></li>
+            <li>Promotional signage is confusing — unclear if a deal is genuine <span class="badge b-price">Price</span></li>
+            <li><span class="badge b-online">Online</span> Search results prioritise sponsored products over best match</li>
+            <li><span class="badge b-store">In-Store</span> Layout changes disrupt the usual route and slow the shop</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="connector"><div class="connector-arrow">▼</div></div>
+
+    
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">Step 04</div>
+        <div class="step-icon">⚖️</div>
+        <div class="step-title">Evaluate &amp; Decide</div>
+        <div class="step-desc">Shopper compares options, checks labels, and decides whether to buy, substitute, or skip an item.</div>
+        <div class="channel-pills"><span class="badge b-online">Online</span><span class="badge b-store">In-Store</span></div>
+      </div>
+      <div class="step-body">
+        <div>
+          <div class="col-label">Actions</div>
+          <ul class="action-list">
+            <li>Compares price-per-unit between products <span class="badge b-price">Price</span></li>
+            <li>Weighs branded vs own-label quality perception <span class="badge b-brand">Brand</span></li>
+            <li>Reads ingredient list or country-of-origin label <span class="badge b-ingred">Ingred</span> <span class="badge b-misc">Misc</span></li>
+            <li>Decides to substitute if preferred item unavailable <span class="badge b-ingred">Ingred</span></li>
+            <li>Weighs ethical preference against price premium <span class="badge b-misc">Misc</span> <span class="badge b-price">Price</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-label">Pain Points</div>
+          <ul class="pain-list">
+            <li>Price-per-unit display is inconsistent — different units block fair comparison <span class="badge b-price">Price</span></li>
+            <li>No reliable quality benchmark between branded and own-label <span class="badge b-brand">Brand</span></li>
+            <li>Ingredient substitution requires manual phone research mid-shop <span class="badge b-ingred">Ingred</span></li>
+            <li>Ethical certification not consistently displayed across products <span class="badge b-misc">Misc</span></li>
+            <li><span class="badge b-online">Online</span> Product photos and descriptions often omit origin and full ingredient detail</li>
+            <li><span class="badge b-store">In-Store</span> Decision fatigue from overcrowded shelves with near-identical products</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="connector"><div class="connector-arrow">▼</div></div>
+
+    
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">Step 05</div>
+        <div class="step-icon">🧺</div>
+        <div class="step-title">Add to Basket</div>
+        <div class="step-desc">Shopper places chosen items in the trolley or online cart, tracking spend as they go.</div>
+        <div class="channel-pills"><span class="badge b-online">Online</span><span class="badge b-store">In-Store</span></div>
+      </div>
+      <div class="step-body">
+        <div>
+          <div class="col-label">Actions</div>
+          <ul class="action-list">
+            <li>Adds items to trolley or online cart</li>
+            <li>Mentally tracks running total <span class="badge b-price">Price</span></li>
+            <li>Makes impulse purchases triggered by promotions <span class="badge b-price">Price</span></li>
+            <li>Picks up extra quantity of preferred brand when on offer <span class="badge b-brand">Brand</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-label">Pain Points</div>
+          <ul class="pain-list">
+            <li>No live running total in-store — full cost only known at checkout <span class="badge b-price">Price</span></li>
+            <li>Aisle-end promotions trigger impulse buys that bust the budget <span class="badge b-price">Price</span></li>
+            <li>Buying in bulk on a preferred brand leads to food waste <span class="badge b-brand">Brand</span> <span class="badge b-price">Price</span></li>
+            <li><span class="badge b-online">Online</span> Minimum order thresholds force over-buying to unlock delivery deals</li>
+            <li><span class="badge b-store">In-Store</span> Scan-and-go apps are unreliable, adding friction to the basket step</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="connector"><div class="connector-arrow">▼</div></div>
+
+    
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">Step 06</div>
+        <div class="step-icon">💳</div>
+        <div class="step-title">Checkout &amp; Payment</div>
+        <div class="step-desc">Shopper reviews the final basket, applies loyalty points or vouchers, and completes payment.</div>
+        <div class="channel-pills"><span class="badge b-online">Online</span><span class="badge b-store">In-Store</span></div>
+      </div>
+      <div class="step-body">
+        <div>
+          <div class="col-label">Actions</div>
+          <ul class="action-list">
+            <li>Reviews basket total and removes items if over budget <span class="badge b-price">Price</span></li>
+            <li>Applies loyalty card, voucher, or discount code <span class="badge b-price">Price</span> <span class="badge b-brand">Brand</span></li>
+            <li>Completes payment via card, app, or cash</li>
+            <li>Checks receipt for unexpected prices <span class="badge b-price">Price</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-label">Pain Points</div>
+          <ul class="pain-list">
+            <li>Sticker shock at checkout — total higher than expected <span class="badge b-price">Price</span></li>
+            <li>Embarrassment when removing items at the till <span class="badge b-price">Price</span></li>
+            <li>Brand-specific loyalty discounts are easy to forget to apply <span class="badge b-brand">Brand</span></li>
+            <li><span class="badge b-online">Online</span> Store-chosen substitutions override brand and organic preferences without clear consent</li>
+            <li><span class="badge b-store">In-Store</span> Long queues increase stress and likelihood of abandoning items</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="connector"><div class="connector-arrow">▼</div></div>
+
+    
+    <div class="step">
+      <div class="step-meta">
+        <div class="step-num">Step 07</div>
+        <div class="step-icon">🏠</div>
+        <div class="step-title">Post-Shop Reflection</div>
+        <div class="step-desc">Shopper unpacks, notices gaps or regrets, and adjusts behaviour for next time.</div>
+        <div class="channel-pills"><span class="badge b-online">Online</span><span class="badge b-store">In-Store</span></div>
+      </div>
+      <div class="step-body">
+        <div>
+          <div class="col-label">Actions</div>
+          <ul class="action-list">
+            <li>Unpacks and stores groceries</li>
+            <li>Notices missing or forgotten items <span class="badge b-ingred">Ingred</span></li>
+            <li>Reflects on whether money was well spent <span class="badge b-price">Price</span></li>
+            <li>Notes which brands or items to change next time <span class="badge b-brand">Brand</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-label">Pain Points</div>
+          <ul class="pain-list">
+            <li>Specialist ingredient still missing — another trip or order required <span class="badge b-ingred">Ingred</span></li>
+            <li>Regret over impulse purchases that exceeded the budget <span class="badge b-price">Price</span></li>
+            <li>Food waste from bulk-buy on preferred brand that was not used in time <span class="badge b-brand">Brand</span> <span class="badge b-price">Price</span></li>
+            <li>No feedback loop — the same friction points repeat on the next shop <span class="badge b-misc">Misc</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <div class="channel-callout">
+    <div class="channel-box online">
+      <h4>Online Shopping — Key Differences</h4>
+      <ul>
+        <li>Search results biassed toward promoted and own-label products</li>
+        <li>Substitutions at packing stage can override brand and organic preferences without consent</li>
+        <li>Delivery slots and minimum order values add cost and planning overhead</li>
+        <li>Product images often omit origin, certification, or full ingredient detail</li>
+        <li>Easier to compare price-per-unit but harder to assess freshness visually</li>
+      </ul>
+    </div>
+    <div class="channel-box store">
+      <h4>In-Store Shopping — Key Differences</h4>
+      <ul>
+        <li>Store layout changes and aisle confusion disrupt efficient shopping</li>
+        <li>Promotional signage is prominent but often misleading on true value</li>
+        <li>No running total until checkout — budget control is entirely manual</li>
+        <li>Organic and origin labelling is small and inconsistently placed</li>
+        <li>Higher risk of impulse buys due to sensory environment and end-of-aisle displays</li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div class="summary">
+    <h3>Key Friction Summary by Preference Category</h3>
+    <div class="summary-grid">
+      <div class="summary-item si-price">
+        <h4><span class="badge b-price">Price</span></h4>
+        <p>No live price comparison before or during the shop. Budget is managed reactively and only confirmed at checkout. Promotions are confusing and frequently mislead.</p>
+      </div>
+      <div class="summary-item si-brand">
+        <h4><span class="badge b-brand">Brand</span></h4>
+        <p>No proactive stock alerts for preferred brands. Substitution decisions are made on the spot without quality benchmarks. Loyalty rewards are easy to forget and miss.</p>
+      </div>
+      <div class="summary-item si-ingred">
+        <h4><span class="badge b-ingred">Ingred</span></h4>
+        <p>Specialist ingredients are stocked inconsistently. No substitute suggestions are offered at point of need. Missing items require an additional trip or separate order.</p>
+      </div>
+      <div class="summary-item si-misc">
+        <h4><span class="badge b-misc">Misc</span></h4>
+        <p>Organic, British, and ethical labels are small and inconsistent. There is no integrated filter for these values at any stage of the current shopping journey.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer>Made with IBM Bob</footer>
+</body>
+</html>

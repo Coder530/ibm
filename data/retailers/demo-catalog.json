@@ -1,0 +1,6597 @@
+{
+  "_notice": "DEMO DATA — illustrative prices for UI development only. Not real retailer prices.",
+  "generatedFor": "pre-integration",
+  "products": {
+    "milk-semi": {
+      "tesco": {
+        "productName": "Tesco Semi-Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 153,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Semi-Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "asda": {
+        "productName": "Arla Semi-Skimmed Milk",
+        "brand": "Arla",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 124,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "morrisons": {
+        "productName": "Morrisons Semi-Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 152,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "aldi": {
+        "productName": "Cravendale Semi-Skimmed Milk",
+        "brand": "Cravendale",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 123,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Semi-Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "coop": {
+        "productName": "Co-op Semi-Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 157,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "iceland": {
+        "productName": "Cravendale Semi-Skimmed Milk",
+        "brand": "Cravendale",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      },
+      "mands": null,
+      "ocado": {
+        "productName": "Ocado Semi-Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 151,
+        "available": true,
+        "qualifiers": [
+          "semi-skimmed"
+        ]
+      }
+    },
+    "milk-whole": {
+      "tesco": {
+        "productName": "Tesco Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "sainsburys": {
+        "productName": "Arla Whole Milk",
+        "brand": "Arla",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "asda": {
+        "productName": "Asda Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 137,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "morrisons": {
+        "productName": "Morrisons Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 160,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "aldi": {
+        "productName": "Cravendale Whole Milk",
+        "brand": "Cravendale",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 131,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "lidl": {
+        "productName": "Lidl Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 117,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "waitrose": {
+        "productName": "Waitrose Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 166,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "coop": {
+        "productName": "Co-op Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 151,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "iceland": {
+        "productName": "Iceland Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 151,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "mands": {
+        "productName": "M&S Food Whole Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 166,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      },
+      "ocado": {
+        "productName": "Cravendale Whole Milk",
+        "brand": "Cravendale",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 173,
+        "available": true,
+        "qualifiers": [
+          "whole"
+        ]
+      }
+    },
+    "milk-skimmed": {
+      "tesco": {
+        "productName": "Tesco Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 131,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "sainsburys": {
+        "productName": "Arla Skimmed Milk",
+        "brand": "Arla",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "asda": {
+        "productName": "Asda Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 122,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "morrisons": null,
+      "aldi": {
+        "productName": "Arla Skimmed Milk",
+        "brand": "Arla",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 106,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "lidl": {
+        "productName": "Lidl Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 112,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "waitrose": {
+        "productName": "Waitrose Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 163,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "coop": {
+        "productName": "Arla Skimmed Milk",
+        "brand": "Arla",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 148,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "iceland": {
+        "productName": "Arla Skimmed Milk",
+        "brand": "Arla",
+        "isOwnBrand": false,
+        "size": "4 pints",
+        "priceMinor": 141,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "mands": {
+        "productName": "M&S Food Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 160,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      },
+      "ocado": {
+        "productName": "Ocado Skimmed Milk",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pints",
+        "priceMinor": 153,
+        "available": true,
+        "qualifiers": [
+          "skimmed"
+        ]
+      }
+    },
+    "milk-oat": {
+      "tesco": {
+        "productName": "Tesco Oat Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 157,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Oat Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 167,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "asda": {
+        "productName": "Asda Oat Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 158,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "morrisons": {
+        "productName": "Morrisons Oat Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 157,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "aldi": {
+        "productName": "Aldi Oat Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "lidl": {
+        "productName": "Lidl Oat Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 138,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "waitrose": {
+        "productName": "Alpro Oat Drink",
+        "brand": "Alpro",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 202,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "coop": {
+        "productName": "Alpro Oat Drink",
+        "brand": "Alpro",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 172,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "iceland": {
+        "productName": "Oatly Oat Drink",
+        "brand": "Oatly",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 164,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "mands": {
+        "productName": "Oatly Oat Drink",
+        "brand": "Oatly",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 199,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      },
+      "ocado": {
+        "productName": "Alpro Oat Drink",
+        "brand": "Alpro",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 176,
+        "available": true,
+        "qualifiers": [
+          "oat"
+        ]
+      }
+    },
+    "milk-soya": {
+      "tesco": {
+        "productName": "Tesco Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 123,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "asda": {
+        "productName": "Asda Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 116,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "morrisons": {
+        "productName": "Morrisons Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 109,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "aldi": {
+        "productName": "Alpro Soya Drink",
+        "brand": "Alpro",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 98,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "lidl": {
+        "productName": "Lidl Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 96,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "waitrose": null,
+      "coop": {
+        "productName": "Co-op Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 127,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "iceland": {
+        "productName": "Provamel Soya Drink",
+        "brand": "Provamel",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 120,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "mands": {
+        "productName": "M&S Food Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      },
+      "ocado": {
+        "productName": "Ocado Soya Drink",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 136,
+        "available": true,
+        "qualifiers": [
+          "soya"
+        ]
+      }
+    },
+    "butter": {
+      "tesco": {
+        "productName": "Tesco Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 212,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 216,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 223,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 239,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 269,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": null,
+      "iceland": {
+        "productName": "Iceland Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 224,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 297,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Salted Butter",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "250g",
+        "priceMinor": 244,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "spread": {
+      "tesco": {
+        "productName": "Tesco Vegetable Spread",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Vitalite Vegetable Spread",
+        "brand": "Vitalite",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 149,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Vegetable Spread",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 123,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Vegetable Spread",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 142,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Lidl Vegetable Spread",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 128,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Vegetable Spread",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 181,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Vegetable Spread",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "Vitalite Vegetable Spread",
+        "brand": "Vitalite",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 161,
+        "available": false,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Vegetable Spread",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "cheddar": {
+      "tesco": {
+        "productName": "Pilgrims Choice Mature Cheddar",
+        "brand": "Pilgrims Choice",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 306,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 346,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 305,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 306,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 273,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 269,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 359,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Pilgrims Choice Mature Cheddar",
+        "brand": "Pilgrims Choice",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 373,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Cathedral City Mature Cheddar",
+        "brand": "Cathedral City",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 281,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 383,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Mature Cheddar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 373,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "mozzarella": {
+      "tesco": {
+        "productName": "Tesco Mozzarella",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "125g",
+        "priceMinor": 95,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Mozzarella",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "125g",
+        "priceMinor": 97,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Mozzarella",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "125g",
+        "priceMinor": 79,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": null,
+      "aldi": {
+        "productName": "Aldi Mozzarella",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "125g",
+        "priceMinor": 72,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Galbani Mozzarella",
+        "brand": "Galbani",
+        "isOwnBrand": false,
+        "size": "125g",
+        "priceMinor": 83,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Galbani Mozzarella",
+        "brand": "Galbani",
+        "isOwnBrand": false,
+        "size": "125g",
+        "priceMinor": 108,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Galbani Mozzarella",
+        "brand": "Galbani",
+        "isOwnBrand": false,
+        "size": "125g",
+        "priceMinor": 108,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Mozzarella",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "125g",
+        "priceMinor": 89,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Mozzarella",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "125g",
+        "priceMinor": 110,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Mozzarella",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "125g",
+        "priceMinor": 101,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "yoghurt-greek": {
+      "tesco": {
+        "productName": "Tesco Greek Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 190,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Total Greek Yoghurt",
+        "brand": "Total",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 188,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Total Greek Yoghurt",
+        "brand": "Total",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 169,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Total Greek Yoghurt",
+        "brand": "Total",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 177,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Greek Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Greek Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 199,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Greek Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 190,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Greek Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 172,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Greek Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 205,
+        "available": false,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Greek Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 191,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "yoghurt-natural": {
+      "tesco": {
+        "productName": "Tesco Natural Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 110,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Natural Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 104,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Yeo Valley Natural Yoghurt",
+        "brand": "Yeo Valley",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 97,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Natural Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 104,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Yeo Valley Natural Yoghurt",
+        "brand": "Yeo Valley",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 89,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Natural Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 81,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Natural Yoghurt",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Yeo Valley Natural Yoghurt",
+        "brand": "Yeo Valley",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 105,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Yeo Valley Natural Yoghurt",
+        "brand": "Yeo Valley",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 98,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": null,
+      "ocado": {
+        "productName": "Yeo Valley Natural Yoghurt",
+        "brand": "Yeo Valley",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 116,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "eggs": {
+      "tesco": {
+        "productName": "Tesco Free Range Eggs",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 224,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Free Range Eggs",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 208,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Free Range Eggs",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 179,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Free Range Eggs",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 191,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Happy Egg Co Free Range Eggs",
+        "brand": "Happy Egg Co",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 170,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Free Range Eggs",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 256,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": null,
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Free Range Eggs",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 269,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Happy Egg Co Free Range Eggs",
+        "brand": "Happy Egg Co",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 214,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "cream-double": {
+      "tesco": {
+        "productName": "Elmlea Double Cream",
+        "brand": "Elmlea",
+        "isOwnBrand": false,
+        "size": "300ml",
+        "priceMinor": 184,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 185,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 170,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Elmlea Double Cream",
+        "brand": "Elmlea",
+        "isOwnBrand": false,
+        "size": "300ml",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 215,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 194,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 159,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Elmlea Double Cream",
+        "brand": "Elmlea",
+        "isOwnBrand": false,
+        "size": "300ml",
+        "priceMinor": 204,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Double Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300ml",
+        "priceMinor": 201,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "bread-white": {
+      "tesco": {
+        "productName": "Warburtons White Bread Loaf",
+        "brand": "Warburtons",
+        "isOwnBrand": false,
+        "size": "800g",
+        "priceMinor": 115,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's White Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 120,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Warburtons White Bread Loaf",
+        "brand": "Warburtons",
+        "isOwnBrand": false,
+        "size": "800g",
+        "priceMinor": 105,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Hovis White Bread Loaf",
+        "brand": "Hovis",
+        "isOwnBrand": false,
+        "size": "800g",
+        "priceMinor": 107,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Lidl White Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 91,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose White Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 143,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op White Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 116,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland White Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 116,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food White Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Warburtons White Bread Loaf",
+        "brand": "Warburtons",
+        "isOwnBrand": false,
+        "size": "800g",
+        "priceMinor": 118,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "bread-wholemeal": {
+      "tesco": {
+        "productName": "Tesco Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 126,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 133,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 117,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 124,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Hovis Wholemeal Bread Loaf",
+        "brand": "Hovis",
+        "isOwnBrand": false,
+        "size": "800g",
+        "priceMinor": 106,
+        "available": false,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Warburtons Wholemeal Bread Loaf",
+        "brand": "Warburtons",
+        "isOwnBrand": false,
+        "size": "800g",
+        "priceMinor": 151,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 138,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 124,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 151,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Wholemeal Bread Loaf",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "800g",
+        "priceMinor": 135,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "bagels": {
+      "tesco": {
+        "productName": "New York Bakery Co Plain Bagels",
+        "brand": "New York Bakery Co",
+        "isOwnBrand": false,
+        "size": "5 pack",
+        "priceMinor": 131,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "New York Bakery Co Plain Bagels",
+        "brand": "New York Bakery Co",
+        "isOwnBrand": false,
+        "size": "5 pack",
+        "priceMinor": 132,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "New York Bakery Co Plain Bagels",
+        "brand": "New York Bakery Co",
+        "isOwnBrand": false,
+        "size": "5 pack",
+        "priceMinor": 123,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "New York Bakery Co Plain Bagels",
+        "brand": "New York Bakery Co",
+        "isOwnBrand": false,
+        "size": "5 pack",
+        "priceMinor": 132,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Lidl Plain Bagels",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 115,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "New York Bakery Co Plain Bagels",
+        "brand": "New York Bakery Co",
+        "isOwnBrand": false,
+        "size": "5 pack",
+        "priceMinor": 165,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Plain Bagels",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 139,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Plain Bagels",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 148,
+        "available": false,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "New York Bakery Co Plain Bagels",
+        "brand": "New York Bakery Co",
+        "isOwnBrand": false,
+        "size": "5 pack",
+        "priceMinor": 142,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "wraps": {
+      "tesco": {
+        "productName": "Tesco Tortilla Wraps",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "8 pack",
+        "priceMinor": 148,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Tortilla Wraps",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "8 pack",
+        "priceMinor": 150,
+        "available": false,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Mission Tortilla Wraps",
+        "brand": "Mission",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 119,
+        "available": false,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Mission Tortilla Wraps",
+        "brand": "Mission",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 145,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Old El Paso Tortilla Wraps",
+        "brand": "Old El Paso",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 120,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Mission Tortilla Wraps",
+        "brand": "Mission",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 115,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Tortilla Wraps",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "8 pack",
+        "priceMinor": 170,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Old El Paso Tortilla Wraps",
+        "brand": "Old El Paso",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Mission Tortilla Wraps",
+        "brand": "Mission",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 124,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Old El Paso Tortilla Wraps",
+        "brand": "Old El Paso",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 168,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Old El Paso Tortilla Wraps",
+        "brand": "Old El Paso",
+        "isOwnBrand": false,
+        "size": "8 pack",
+        "priceMinor": 149,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "croissants": {
+      "tesco": {
+        "productName": "Tesco Butter Croissants",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Jus-Rol Butter Croissants",
+        "brand": "Jus-Rol",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 151,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Butter Croissants",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 142,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Jus-Rol Butter Croissants",
+        "brand": "Jus-Rol",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Jus-Rol Butter Croissants",
+        "brand": "Jus-Rol",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 123,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Butter Croissants",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Butter Croissants",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 180,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Jus-Rol Butter Croissants",
+        "brand": "Jus-Rol",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 157,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Butter Croissants",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 182,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Butter Croissants",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 170,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "bananas": {
+      "tesco": {
+        "productName": "Tesco Bananas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Fairtrade Bananas",
+        "brand": "Fairtrade",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Bananas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 65,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Chiquita Bananas",
+        "brand": "Chiquita",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 82,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Chiquita Bananas",
+        "brand": "Chiquita",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 53,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Fairtrade Bananas",
+        "brand": "Fairtrade",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 98,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": null,
+      "iceland": {
+        "productName": "Chiquita Bananas",
+        "brand": "Chiquita",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 71,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Chiquita Bananas",
+        "brand": "Chiquita",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 92,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Bananas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 79,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "apples": {
+      "tesco": {
+        "productName": "Gala Apples",
+        "brand": "Gala",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 195,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Apples",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 198,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Gala Apples",
+        "brand": "Gala",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 165,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Apples",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 187,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Apples",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Apples",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 149,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Pink Lady Apples",
+        "brand": "Pink Lady",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 213,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Pink Lady Apples",
+        "brand": "Pink Lady",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 200,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "Pink Lady Apples",
+        "brand": "Pink Lady",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 251,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Gala Apples",
+        "brand": "Gala",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 212,
+        "available": false,
+        "qualifiers": []
+      }
+    },
+    "oranges": {
+      "tesco": {
+        "productName": "Tesco Oranges",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 174,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Oranges",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 183,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Oranges",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 161,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": null,
+      "aldi": {
+        "productName": "Jaffa Oranges",
+        "brand": "Jaffa",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 126,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Oranges",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 135,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Jaffa Oranges",
+        "brand": "Jaffa",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 196,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Jaffa Oranges",
+        "brand": "Jaffa",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 194,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Oranges",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 165,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Jaffa Oranges",
+        "brand": "Jaffa",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 229,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Jaffa Oranges",
+        "brand": "Jaffa",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 190,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "grapes": {
+      "tesco": {
+        "productName": "Tesco Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 199,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 218,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 200,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 224,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 145,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 150,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 236,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 238,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 203,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 239,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Seedless Grapes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 237,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "strawberries": {
+      "tesco": {
+        "productName": "Tesco Strawberries",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 236,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Strawberries",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 259,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Driscoll's Strawberries",
+        "brand": "Driscoll's",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 239,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Strawberries",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 252,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Strawberries",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 188,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Strawberries",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 172,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Strawberries",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 299,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Driscoll's Strawberries",
+        "brand": "Driscoll's",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 281,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Strawberries",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 282,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Driscoll's Strawberries",
+        "brand": "Driscoll's",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 278,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "lemons": {
+      "tesco": {
+        "productName": "Tesco Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 125,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 126,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 113,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 125,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 90,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 96,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 145,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 132,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 124,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 160,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Lemons",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "5 pack",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "avocados": {
+      "tesco": {
+        "productName": "Tesco Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 235,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 248,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 219,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 241,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Lidl Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 172,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 273,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 264,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 268,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Avocados",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 276,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "tomatoes": {
+      "tesco": {
+        "productName": "Tesco Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 152,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Vine Tomatoes",
+        "brand": "Vine",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 140,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": null,
+      "morrisons": {
+        "productName": "Vine Tomatoes",
+        "brand": "Vine",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 140,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Vine Tomatoes",
+        "brand": "Vine",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 106,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 106,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 162,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 156,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Vine Tomatoes",
+        "brand": "Vine",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 137,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Vine Tomatoes",
+        "brand": "Vine",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 180,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Vine Tomatoes",
+        "brand": "Vine",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "cucumber": {
+      "tesco": {
+        "productName": "Tesco Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 67,
+        "available": false,
+        "qualifiers": []
+      },
+      "sainsburys": null,
+      "asda": {
+        "productName": "Asda Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 60,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 68,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 50,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 45,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 82,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 66,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 58,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 80,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Cucumber",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "lettuce": {
+      "tesco": null,
+      "sainsburys": {
+        "productName": "Sainsbury's Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 87,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 79,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": null,
+      "aldi": {
+        "productName": "Aldi Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 61,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 64,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 98,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 95,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 102,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Iceberg Lettuce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 96,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "onions": {
+      "tesco": {
+        "productName": "Tesco Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 89,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 97,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 89,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 96,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 64,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 64,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 112,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": null,
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 119,
+        "available": false,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Onions",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 102,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "garlic": {
+      "tesco": {
+        "productName": "Tesco Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 75,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 70,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 66,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 51,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 51,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 86,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": null,
+      "iceland": {
+        "productName": "Iceland Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 66,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 89,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Garlic",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 77,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "potatoes": {
+      "tesco": {
+        "productName": "Tesco Potatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2.5kg",
+        "priceMinor": 213,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Potatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2.5kg",
+        "priceMinor": 224,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Potatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2.5kg",
+        "priceMinor": 190,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Potatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2.5kg",
+        "priceMinor": 199,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": null,
+      "waitrose": null,
+      "coop": {
+        "productName": "Co-op Potatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2.5kg",
+        "priceMinor": 242,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Potatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2.5kg",
+        "priceMinor": 242,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Potatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2.5kg",
+        "priceMinor": 236,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "carrots": {
+      "tesco": {
+        "productName": "Tesco Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 69,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 60,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 63,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 51,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 69,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 62,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 86,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Carrots",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 75,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "broccoli": {
+      "tesco": {
+        "productName": "Tesco Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 110,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 102,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 101,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 98,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 78,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 127,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 111,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 116,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Broccoli",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 106,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "peppers": {
+      "tesco": {
+        "productName": "Tesco Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 150,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 141,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 157,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 113,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 118,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 172,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 167,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 149,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 182,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Mixed Peppers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "3 pack",
+        "priceMinor": 165,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "mushrooms": {
+      "tesco": {
+        "productName": "Tesco Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 111,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 110,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 100,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 121,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 86,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 87,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 141,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 145,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Mushrooms",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 136,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "spinach": {
+      "tesco": {
+        "productName": "Tesco Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 143,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 138,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 115,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 130,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 97,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 105,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 172,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 154,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": null,
+      "ocado": {
+        "productName": "Ocado Baby Spinach",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "240g",
+        "priceMinor": 152,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "chicken-breast": {
+      "tesco": {
+        "productName": "Tesco Chicken Breast Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "650g",
+        "priceMinor": 480,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 446,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Chicken Breast Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "650g",
+        "priceMinor": 433,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 410,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 383,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 371,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 535,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 491,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 432,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Red Tractor Chicken Breast Fillets",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "650g",
+        "priceMinor": 507,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Chicken Breast Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "650g",
+        "priceMinor": 502,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "beef-mince": {
+      "tesco": {
+        "productName": "Tesco Beef Mince 5% Fat",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 393,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Red Tractor Beef Mince 5% Fat",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 384,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Red Tractor Beef Mince 5% Fat",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 363,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Beef Mince 5% Fat",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 388,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Red Tractor Beef Mince 5% Fat",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 306,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Red Tractor Beef Mince 5% Fat",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 473,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Beef Mince 5% Fat",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 413,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": null,
+      "ocado": {
+        "productName": "Red Tractor Beef Mince 5% Fat",
+        "brand": "Red Tractor",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 408,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "pork-sausages": {
+      "tesco": {
+        "productName": "Tesco Pork Sausages",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 230,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Pork Sausages",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 233,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Pork Sausages",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 214,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Pork Sausages",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 243,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Pork Sausages",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 211,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Richmond Pork Sausages",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 201,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": null,
+      "coop": {
+        "productName": "Richmond Pork Sausages",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 285,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Pork Sausages",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "400g",
+        "priceMinor": 251,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Richmond Pork Sausages",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 286,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Richmond Pork Sausages",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "400g",
+        "priceMinor": 262,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "bacon": {
+      "tesco": {
+        "productName": "Richmond Smoked Bacon Rashers",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 270,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Smoked Bacon Rashers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 285,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Richmond Smoked Bacon Rashers",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 243,
+        "available": false,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Danish Crown Smoked Bacon Rashers",
+        "brand": "Danish Crown",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 287,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Danish Crown Smoked Bacon Rashers",
+        "brand": "Danish Crown",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 237,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Richmond Smoked Bacon Rashers",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 222,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Richmond Smoked Bacon Rashers",
+        "brand": "Richmond",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 329,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Smoked Bacon Rashers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 305,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "M&S Food Smoked Bacon Rashers",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 326,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Danish Crown Smoked Bacon Rashers",
+        "brand": "Danish Crown",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 288,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "ham": {
+      "tesco": {
+        "productName": "Tesco Cooked Ham",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "150g",
+        "priceMinor": 167,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Cooked Ham",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "150g",
+        "priceMinor": 182,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Denny Cooked Ham",
+        "brand": "Denny",
+        "isOwnBrand": false,
+        "size": "150g",
+        "priceMinor": 153,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Cooked Ham",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "150g",
+        "priceMinor": 185,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Cooked Ham",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "150g",
+        "priceMinor": 147,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Cooked Ham",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "150g",
+        "priceMinor": 203,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Denny Cooked Ham",
+        "brand": "Denny",
+        "isOwnBrand": false,
+        "size": "150g",
+        "priceMinor": 198,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Cooked Ham",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "150g",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Denny Cooked Ham",
+        "brand": "Denny",
+        "isOwnBrand": false,
+        "size": "150g",
+        "priceMinor": 220,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Denny Cooked Ham",
+        "brand": "Denny",
+        "isOwnBrand": false,
+        "size": "150g",
+        "priceMinor": 184,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "salmon-fillets": {
+      "tesco": {
+        "productName": "Youngs Salmon Fillets",
+        "brand": "Youngs",
+        "isOwnBrand": false,
+        "size": "2 pack",
+        "priceMinor": 465,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Youngs Salmon Fillets",
+        "brand": "Youngs",
+        "isOwnBrand": false,
+        "size": "2 pack",
+        "priceMinor": 429,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Salmon Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2 pack",
+        "priceMinor": 416,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Salmon Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2 pack",
+        "priceMinor": 434,
+        "available": false,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Youngs Salmon Fillets",
+        "brand": "Youngs",
+        "isOwnBrand": false,
+        "size": "2 pack",
+        "priceMinor": 363,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Youngs Salmon Fillets",
+        "brand": "Youngs",
+        "isOwnBrand": false,
+        "size": "2 pack",
+        "priceMinor": 386,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Youngs Salmon Fillets",
+        "brand": "Youngs",
+        "isOwnBrand": false,
+        "size": "2 pack",
+        "priceMinor": 558,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Salmon Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2 pack",
+        "priceMinor": 475,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Youngs Salmon Fillets",
+        "brand": "Youngs",
+        "isOwnBrand": false,
+        "size": "2 pack",
+        "priceMinor": 442,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Salmon Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2 pack",
+        "priceMinor": 570,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Salmon Fillets",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2 pack",
+        "priceMinor": 488,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "tuna-tin": {
+      "tesco": {
+        "productName": "Tesco Tuna Chunks in Brine",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 331,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Tuna Chunks in Brine",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 311,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Tuna Chunks in Brine",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 308,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Princes Tuna Chunks in Brine",
+        "brand": "Princes",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 326,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "John West Tuna Chunks in Brine",
+        "brand": "John West",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 278,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Tuna Chunks in Brine",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 265,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Tuna Chunks in Brine",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 380,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Princes Tuna Chunks in Brine",
+        "brand": "Princes",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 359,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Tuna Chunks in Brine",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 322,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Princes Tuna Chunks in Brine",
+        "brand": "Princes",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 403,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Tuna Chunks in Brine",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 355,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "pasta-dried": {
+      "tesco": {
+        "productName": "Napolina Penne Pasta",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 91,
+        "available": false,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 83,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 88,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 65,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 75,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Napolina Penne Pasta",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 101,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 96,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 74,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Penne Pasta",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 107,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Napolina Penne Pasta",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 88,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "spaghetti": {
+      "tesco": null,
+      "sainsburys": {
+        "productName": "Napolina Spaghetti",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 80,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Napolina Spaghetti",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 77,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Spaghetti",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 86,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Spaghetti",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 73,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Napolina Spaghetti",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 71,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Spaghetti",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 100,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Napolina Spaghetti",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 99,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Napolina Spaghetti",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 79,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Napolina Spaghetti",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 103,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Spaghetti",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 97,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "rice-basmati": {
+      "tesco": {
+        "productName": "Tesco Basmati Rice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 197,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Uncle Ben's Basmati Rice",
+        "brand": "Uncle Ben's",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 187,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Basmati Rice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 166,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Basmati Rice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 195,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Basmati Rice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 166,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Uncle Ben's Basmati Rice",
+        "brand": "Uncle Ben's",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 154,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Basmati Rice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 221,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Tilda Basmati Rice",
+        "brand": "Tilda",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 214,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Tilda Basmati Rice",
+        "brand": "Tilda",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 177,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Basmati Rice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 216,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Basmati Rice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 207,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "oats": {
+      "tesco": {
+        "productName": "Tesco Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 152,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Quaker Porridge Oats",
+        "brand": "Quaker",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 121,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Quaker Porridge Oats",
+        "brand": "Quaker",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 135,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Scott's Porridge Oats",
+        "brand": "Scott's",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 128,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 135,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 173,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Porridge Oats",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 153,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "cornflakes": {
+      "tesco": {
+        "productName": "Tesco Cornflakes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 154,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Cornflakes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Kellogg's Cornflakes",
+        "brand": "Kellogg's",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 157,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Kellogg's Cornflakes",
+        "brand": "Kellogg's",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 157,
+        "available": false,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Cornflakes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 131,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Kellogg's Cornflakes",
+        "brand": "Kellogg's",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 132,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Cornflakes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 199,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Kellogg's Cornflakes",
+        "brand": "Kellogg's",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 181,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Kellogg's Cornflakes",
+        "brand": "Kellogg's",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Kellogg's Cornflakes",
+        "brand": "Kellogg's",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 199,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Cornflakes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 180,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "baked-beans": {
+      "tesco": {
+        "productName": "Tesco Baked Beans",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 214,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Baked Beans",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 214,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Heinz Baked Beans",
+        "brand": "Heinz",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 185,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Heinz Baked Beans",
+        "brand": "Heinz",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 210,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Baked Beans",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 170,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Baked Beans",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 170,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Baked Beans",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 245,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Baked Beans",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 203,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Branston Baked Beans",
+        "brand": "Branston",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 179,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Heinz Baked Beans",
+        "brand": "Heinz",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 230,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Branston Baked Beans",
+        "brand": "Branston",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 205,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "chopped-tomatoes": {
+      "tesco": {
+        "productName": "Tesco Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 168,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 170,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Napolina Chopped Tomatoes",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 141,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 166,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 136,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 137,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 203,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Chopped Tomatoes",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "4 pack",
+        "priceMinor": 149,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Napolina Chopped Tomatoes",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Napolina Chopped Tomatoes",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "4 pack",
+        "priceMinor": 183,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "pasta-sauce": {
+      "tesco": {
+        "productName": "Tesco Tomato Pasta Sauce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 123,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Napolina Tomato Pasta Sauce",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 128,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": null,
+      "morrisons": {
+        "productName": "Napolina Tomato Pasta Sauce",
+        "brand": "Napolina",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 122,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Tomato Pasta Sauce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 114,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Dolmio Tomato Pasta Sauce",
+        "brand": "Dolmio",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 159,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Tomato Pasta Sauce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 145,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Dolmio Tomato Pasta Sauce",
+        "brand": "Dolmio",
+        "isOwnBrand": false,
+        "size": "500g",
+        "priceMinor": 119,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": null,
+      "ocado": {
+        "productName": "Ocado Tomato Pasta Sauce",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500g",
+        "priceMinor": 145,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "flour-plain": {
+      "tesco": {
+        "productName": "Allinson's Plain Flour",
+        "brand": "Allinson's",
+        "isOwnBrand": false,
+        "size": "1.5kg",
+        "priceMinor": 91,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Allinson's Plain Flour",
+        "brand": "Allinson's",
+        "isOwnBrand": false,
+        "size": "1.5kg",
+        "priceMinor": 101,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Plain Flour",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1.5kg",
+        "priceMinor": 87,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Plain Flour",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1.5kg",
+        "priceMinor": 100,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Allinson's Plain Flour",
+        "brand": "Allinson's",
+        "isOwnBrand": false,
+        "size": "1.5kg",
+        "priceMinor": 81,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Allinson's Plain Flour",
+        "brand": "Allinson's",
+        "isOwnBrand": false,
+        "size": "1.5kg",
+        "priceMinor": 75,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Allinson's Plain Flour",
+        "brand": "Allinson's",
+        "isOwnBrand": false,
+        "size": "1.5kg",
+        "priceMinor": 110,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Plain Flour",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1.5kg",
+        "priceMinor": 95,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Allinson's Plain Flour",
+        "brand": "Allinson's",
+        "isOwnBrand": false,
+        "size": "1.5kg",
+        "priceMinor": 86,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Allinson's Plain Flour",
+        "brand": "Allinson's",
+        "isOwnBrand": false,
+        "size": "1.5kg",
+        "priceMinor": 123,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Plain Flour",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1.5kg",
+        "priceMinor": 111,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "sugar": {
+      "tesco": {
+        "productName": "Tate & Lyle Granulated Sugar",
+        "brand": "Tate & Lyle",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 100,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Granulated Sugar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 112,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Granulated Sugar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 101,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Tate & Lyle Granulated Sugar",
+        "brand": "Tate & Lyle",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 109,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Tate & Lyle Granulated Sugar",
+        "brand": "Tate & Lyle",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 82,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Tate & Lyle Granulated Sugar",
+        "brand": "Tate & Lyle",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 132,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Granulated Sugar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 122,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Granulated Sugar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 107,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": null,
+      "ocado": {
+        "productName": "Tate & Lyle Granulated Sugar",
+        "brand": "Tate & Lyle",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 124,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "olive-oil": {
+      "tesco": {
+        "productName": "Tesco Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 323,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 348,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 302,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": null,
+      "aldi": {
+        "productName": "Aldi Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 282,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 286,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Filippo Berio Extra Virgin Olive Oil",
+        "brand": "Filippo Berio",
+        "isOwnBrand": false,
+        "size": "500ml",
+        "priceMinor": 440,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Filippo Berio Extra Virgin Olive Oil",
+        "brand": "Filippo Berio",
+        "isOwnBrand": false,
+        "size": "500ml",
+        "priceMinor": 372,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 348,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 447,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Extra Virgin Olive Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "500ml",
+        "priceMinor": 384,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "vegetable-oil": {
+      "tesco": {
+        "productName": "Crisp 'n Dry Vegetable Oil",
+        "brand": "Crisp 'n Dry",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 151,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Vegetable Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 136,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Crisp 'n Dry Vegetable Oil",
+        "brand": "Crisp 'n Dry",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 125,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Crisp 'n Dry Vegetable Oil",
+        "brand": "Crisp 'n Dry",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 134,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Vegetable Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 113,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Vegetable Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 129,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": null,
+      "coop": {
+        "productName": "Co-op Vegetable Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 166,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Vegetable Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 131,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Vegetable Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 182,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Vegetable Oil",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 169,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "coffee-instant": {
+      "tesco": {
+        "productName": "Kenco Instant Coffee",
+        "brand": "Kenco",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 418,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Instant Coffee",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 435,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Instant Coffee",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 374,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Kenco Instant Coffee",
+        "brand": "Kenco",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 427,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Kenco Instant Coffee",
+        "brand": "Kenco",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 359,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Instant Coffee",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 367,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Kenco Instant Coffee",
+        "brand": "Kenco",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 465,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Nescafé Instant Coffee",
+        "brand": "Nescafé",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 481,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Kenco Instant Coffee",
+        "brand": "Kenco",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 425,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Instant Coffee",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 523,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Instant Coffee",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 438,
+        "available": false,
+        "qualifiers": []
+      }
+    },
+    "tea-bags": {
+      "tesco": {
+        "productName": "PG Tips Tea Bags",
+        "brand": "PG Tips",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 242,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "PG Tips Tea Bags",
+        "brand": "PG Tips",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 227,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "PG Tips Tea Bags",
+        "brand": "PG Tips",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 206,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Yorkshire Tea Tea Bags",
+        "brand": "Yorkshire Tea",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 217,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Lidl Tea Bags",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "80 pack",
+        "priceMinor": 193,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Yorkshire Tea Tea Bags",
+        "brand": "Yorkshire Tea",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 295,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Yorkshire Tea Tea Bags",
+        "brand": "Yorkshire Tea",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 264,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Yorkshire Tea Tea Bags",
+        "brand": "Yorkshire Tea",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 235,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "PG Tips Tea Bags",
+        "brand": "PG Tips",
+        "isOwnBrand": false,
+        "size": "80 pack",
+        "priceMinor": 280,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Tea Bags",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "80 pack",
+        "priceMinor": 247,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "orange-juice": {
+      "tesco": {
+        "productName": "Tropicana Orange Juice",
+        "brand": "Tropicana",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 174,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Orange Juice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 167,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Tropicana Orange Juice",
+        "brand": "Tropicana",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Tropicana Orange Juice",
+        "brand": "Tropicana",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 175,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Copella Orange Juice",
+        "brand": "Copella",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 127,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Copella Orange Juice",
+        "brand": "Copella",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 184,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Copella Orange Juice",
+        "brand": "Copella",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 177,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Copella Orange Juice",
+        "brand": "Copella",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 150,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Copella Orange Juice",
+        "brand": "Copella",
+        "isOwnBrand": false,
+        "size": "1l",
+        "priceMinor": 198,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Orange Juice",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1l",
+        "priceMinor": 188,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "water-still": {
+      "tesco": {
+        "productName": "Tesco Still Water",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 202,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Still Water",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 213,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Highland Spring Still Water",
+        "brand": "Highland Spring",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 203,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Evian Still Water",
+        "brand": "Evian",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 194,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Highland Spring Still Water",
+        "brand": "Highland Spring",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 163,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Still Water",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 259,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Still Water",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 228,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Still Water",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 210,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Evian Still Water",
+        "brand": "Evian",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 238,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Ocado Still Water",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 248,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "cola": {
+      "tesco": {
+        "productName": "Tesco Cola",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2l",
+        "priceMinor": 177,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Cola",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2l",
+        "priceMinor": 187,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Coca-Cola Cola",
+        "brand": "Coca-Cola",
+        "isOwnBrand": false,
+        "size": "2l",
+        "priceMinor": 165,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Coca-Cola Cola",
+        "brand": "Coca-Cola",
+        "isOwnBrand": false,
+        "size": "2l",
+        "priceMinor": 165,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Pepsi Cola",
+        "brand": "Pepsi",
+        "isOwnBrand": false,
+        "size": "2l",
+        "priceMinor": 136,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Pepsi Cola",
+        "brand": "Pepsi",
+        "isOwnBrand": false,
+        "size": "2l",
+        "priceMinor": 138,
+        "available": false,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Cola",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2l",
+        "priceMinor": 201,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Pepsi Cola",
+        "brand": "Pepsi",
+        "isOwnBrand": false,
+        "size": "2l",
+        "priceMinor": 186,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Cola",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "2l",
+        "priceMinor": 171,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Pepsi Cola",
+        "brand": "Pepsi",
+        "isOwnBrand": false,
+        "size": "2l",
+        "priceMinor": 194,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Pepsi Cola",
+        "brand": "Pepsi",
+        "isOwnBrand": false,
+        "size": "2l",
+        "priceMinor": 207,
+        "available": false,
+        "qualifiers": []
+      }
+    },
+    "toilet-roll": {
+      "tesco": {
+        "productName": "Cushelle Toilet Roll",
+        "brand": "Cushelle",
+        "isOwnBrand": false,
+        "size": "9 pack",
+        "priceMinor": 497,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Cushelle Toilet Roll",
+        "brand": "Cushelle",
+        "isOwnBrand": false,
+        "size": "9 pack",
+        "priceMinor": 498,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Toilet Roll",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "9 pack",
+        "priceMinor": 438,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Toilet Roll",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "9 pack",
+        "priceMinor": 471,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Toilet Roll",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "9 pack",
+        "priceMinor": 414,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Toilet Roll",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "9 pack",
+        "priceMinor": 443,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Waitrose Toilet Roll",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "9 pack",
+        "priceMinor": 600,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Andrex Toilet Roll",
+        "brand": "Andrex",
+        "isOwnBrand": false,
+        "size": "9 pack",
+        "priceMinor": 574,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Toilet Roll",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "9 pack",
+        "priceMinor": 440,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Cushelle Toilet Roll",
+        "brand": "Cushelle",
+        "isOwnBrand": false,
+        "size": "9 pack",
+        "priceMinor": 624,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Andrex Toilet Roll",
+        "brand": "Andrex",
+        "isOwnBrand": false,
+        "size": "9 pack",
+        "priceMinor": 552,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "washing-up-liquid": {
+      "tesco": {
+        "productName": "Tesco Washing Up Liquid",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "780ml",
+        "priceMinor": 142,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Washing Up Liquid",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "780ml",
+        "priceMinor": 153,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Fairy Washing Up Liquid",
+        "brand": "Fairy",
+        "isOwnBrand": false,
+        "size": "780ml",
+        "priceMinor": 139,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Fairy Washing Up Liquid",
+        "brand": "Fairy",
+        "isOwnBrand": false,
+        "size": "780ml",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Fairy Washing Up Liquid",
+        "brand": "Fairy",
+        "isOwnBrand": false,
+        "size": "780ml",
+        "priceMinor": 121,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Lidl Washing Up Liquid",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "780ml",
+        "priceMinor": 122,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Fairy Washing Up Liquid",
+        "brand": "Fairy",
+        "isOwnBrand": false,
+        "size": "780ml",
+        "priceMinor": 158,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Washing Up Liquid",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "780ml",
+        "priceMinor": 146,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Fairy Washing Up Liquid",
+        "brand": "Fairy",
+        "isOwnBrand": false,
+        "size": "780ml",
+        "priceMinor": 145,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Washing Up Liquid",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "780ml",
+        "priceMinor": 187,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Fairy Washing Up Liquid",
+        "brand": "Fairy",
+        "isOwnBrand": false,
+        "size": "780ml",
+        "priceMinor": 161,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "frozen-peas": {
+      "tesco": {
+        "productName": "Tesco Frozen Peas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900g",
+        "priceMinor": 141,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Frozen Peas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900g",
+        "priceMinor": 140,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "asda": {
+        "productName": "Birds Eye Frozen Peas",
+        "brand": "Birds Eye",
+        "isOwnBrand": false,
+        "size": "900g",
+        "priceMinor": 135,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "morrisons": {
+        "productName": "Morrisons Frozen Peas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900g",
+        "priceMinor": 150,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "aldi": {
+        "productName": "Birds Eye Frozen Peas",
+        "brand": "Birds Eye",
+        "isOwnBrand": false,
+        "size": "900g",
+        "priceMinor": 117,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Frozen Peas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900g",
+        "priceMinor": 161,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "coop": {
+        "productName": "Birds Eye Frozen Peas",
+        "brand": "Birds Eye",
+        "isOwnBrand": false,
+        "size": "900g",
+        "priceMinor": 164,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "iceland": {
+        "productName": "Birds Eye Frozen Peas",
+        "brand": "Birds Eye",
+        "isOwnBrand": false,
+        "size": "900g",
+        "priceMinor": 95,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "mands": null,
+      "ocado": {
+        "productName": "Ocado Frozen Peas",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900g",
+        "priceMinor": 155,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      }
+    },
+    "chips-frozen": {
+      "tesco": {
+        "productName": "McCain Oven Chips",
+        "brand": "McCain",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 157,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "sainsburys": {
+        "productName": "McCain Oven Chips",
+        "brand": "McCain",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 176,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "asda": {
+        "productName": "Asda Oven Chips",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 137,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "morrisons": {
+        "productName": "Morrisons Oven Chips",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 153,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "aldi": {
+        "productName": "McCain Oven Chips",
+        "brand": "McCain",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 134,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "lidl": null,
+      "waitrose": {
+        "productName": "Waitrose Oven Chips",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1kg",
+        "priceMinor": 186,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "coop": {
+        "productName": "McCain Oven Chips",
+        "brand": "McCain",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 190,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "iceland": {
+        "productName": "McCain Oven Chips",
+        "brand": "McCain",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 111,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "mands": {
+        "productName": "McCain Oven Chips",
+        "brand": "McCain",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 197,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "ocado": {
+        "productName": "McCain Oven Chips",
+        "brand": "McCain",
+        "isOwnBrand": false,
+        "size": "1kg",
+        "priceMinor": 186,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      }
+    },
+    "pizza-frozen": {
+      "tesco": {
+        "productName": "Tesco Margherita Pizza",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 274,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Margherita Pizza",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 274,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "asda": null,
+      "morrisons": {
+        "productName": "Chicago Town Margherita Pizza",
+        "brand": "Chicago Town",
+        "isOwnBrand": false,
+        "size": "1 pack",
+        "priceMinor": 283,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Goodfella's Margherita Pizza",
+        "brand": "Goodfella's",
+        "isOwnBrand": false,
+        "size": "1 pack",
+        "priceMinor": 203,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "waitrose": {
+        "productName": "Waitrose Margherita Pizza",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 308,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "coop": {
+        "productName": "Co-op Margherita Pizza",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 313,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "iceland": {
+        "productName": "Chicago Town Margherita Pizza",
+        "brand": "Chicago Town",
+        "isOwnBrand": false,
+        "size": "1 pack",
+        "priceMinor": 199,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "mands": {
+        "productName": "M&S Food Margherita Pizza",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 333,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      },
+      "ocado": {
+        "productName": "Ocado Margherita Pizza",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "1 pack",
+        "priceMinor": 298,
+        "available": true,
+        "qualifiers": [
+          "frozen"
+        ]
+      }
+    },
+    "ice-cream": {
+      "tesco": {
+        "productName": "Carte D'Or Vanilla Ice Cream",
+        "brand": "Carte D'Or",
+        "isOwnBrand": false,
+        "size": "900ml",
+        "priceMinor": 262,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Sainsbury's Vanilla Ice Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900ml",
+        "priceMinor": 256,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Carte D'Or Vanilla Ice Cream",
+        "brand": "Carte D'Or",
+        "isOwnBrand": false,
+        "size": "900ml",
+        "priceMinor": 217,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Morrisons Vanilla Ice Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900ml",
+        "priceMinor": 254,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Wall's Vanilla Ice Cream",
+        "brand": "Wall's",
+        "isOwnBrand": false,
+        "size": "900ml",
+        "priceMinor": 192,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Wall's Vanilla Ice Cream",
+        "brand": "Wall's",
+        "isOwnBrand": false,
+        "size": "900ml",
+        "priceMinor": 202,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Wall's Vanilla Ice Cream",
+        "brand": "Wall's",
+        "isOwnBrand": false,
+        "size": "900ml",
+        "priceMinor": 288,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Vanilla Ice Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900ml",
+        "priceMinor": 262,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Iceland Vanilla Ice Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900ml",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "M&S Food Vanilla Ice Cream",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "900ml",
+        "priceMinor": 290,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Carte D'Or Vanilla Ice Cream",
+        "brand": "Carte D'Or",
+        "isOwnBrand": false,
+        "size": "900ml",
+        "priceMinor": 295,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "crisps": {
+      "tesco": {
+        "productName": "Tesco Crisps",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 181,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Walkers Crisps",
+        "brand": "Walkers",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 187,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Crisps",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 158,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Walkers Crisps",
+        "brand": "Walkers",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 181,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": null,
+      "lidl": {
+        "productName": "Walkers Crisps",
+        "brand": "Walkers",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Walkers Crisps",
+        "brand": "Walkers",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 226,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Crisps",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "6 pack",
+        "priceMinor": 197,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Walkers Crisps",
+        "brand": "Walkers",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 171,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Walkers Crisps",
+        "brand": "Walkers",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 214,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Walkers Crisps",
+        "brand": "Walkers",
+        "isOwnBrand": false,
+        "size": "6 pack",
+        "priceMinor": 189,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "chocolate": {
+      "tesco": {
+        "productName": "Cadbury Chocolate Bar",
+        "brand": "Cadbury",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 233,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "Cadbury Chocolate Bar",
+        "brand": "Cadbury",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 214,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Chocolate Bar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 188,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "Cadbury Chocolate Bar",
+        "brand": "Cadbury",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 221,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "Aldi Chocolate Bar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 178,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "Cadbury Chocolate Bar",
+        "brand": "Cadbury",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 187,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "Galaxy Chocolate Bar",
+        "brand": "Galaxy",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 258,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "Co-op Chocolate Bar",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "200g",
+        "priceMinor": 236,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": {
+        "productName": "Galaxy Chocolate Bar",
+        "brand": "Galaxy",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 198,
+        "available": true,
+        "qualifiers": []
+      },
+      "mands": {
+        "productName": "Cadbury Chocolate Bar",
+        "brand": "Cadbury",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 258,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "Cadbury Chocolate Bar",
+        "brand": "Cadbury",
+        "isOwnBrand": false,
+        "size": "200g",
+        "priceMinor": 233,
+        "available": true,
+        "qualifiers": []
+      }
+    },
+    "biscuits": {
+      "tesco": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 144,
+        "available": true,
+        "qualifiers": []
+      },
+      "sainsburys": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 150,
+        "available": true,
+        "qualifiers": []
+      },
+      "asda": {
+        "productName": "Asda Biscuits",
+        "brand": null,
+        "isOwnBrand": true,
+        "size": "300g",
+        "priceMinor": 127,
+        "available": true,
+        "qualifiers": []
+      },
+      "morrisons": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 133,
+        "available": true,
+        "qualifiers": []
+      },
+      "aldi": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 117,
+        "available": true,
+        "qualifiers": []
+      },
+      "lidl": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 114,
+        "available": true,
+        "qualifiers": []
+      },
+      "waitrose": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 182,
+        "available": true,
+        "qualifiers": []
+      },
+      "coop": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 147,
+        "available": true,
+        "qualifiers": []
+      },
+      "iceland": null,
+      "mands": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 172,
+        "available": true,
+        "qualifiers": []
+      },
+      "ocado": {
+        "productName": "McVitie's Biscuits",
+        "brand": "McVitie's",
+        "isOwnBrand": false,
+        "size": "300g",
+        "priceMinor": 159,
+        "available": true,
+        "qualifiers": []
+      }
+    }
+  }
+}

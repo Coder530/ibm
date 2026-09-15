@@ -21,6 +21,8 @@ const LEADING_ARTICLE_RE = /^(?:a|an)\s+/i;
 const CONTAINER_OF_RE =
   /^(?:bags?|loaf|loaves|tins?|cans?|bottles?|box(?:es)?|jars?|cartons?|packs?|packets?|punnets?|bunch(?:es)?|nets?|tubs?|bars?|heads?|trays?)\s+of\s+/i;
 const OF_RE = /^of\s+/i;
+const TIN_CONTAINER_RE = /^(?:tins?|cans?)\s/i;
+const FRESH_CATEGORIES: ReadonlySet<string> = new Set(["vegetables", "fruit"]);
 const EDGE_JUNK_RE = /^[^a-zA-Z0-9À-ÿ]+|[^a-zA-Z0-9À-ÿ)%]+$/g;
 
 interface ParsedSegment {
@@ -125,7 +127,9 @@ function parseSegment(raw: string): ParsedSegment {
   }
 
   rest = rest.trim();
-  const container = CONTAINER_OF_RE.test(rest);
+  const containerMatch = CONTAINER_OF_RE.exec(rest);
+  const container = containerMatch !== null;
+  const tinned = containerMatch !== null && TIN_CONTAINER_RE.test(containerMatch[0]);
   rest = rest.replace(CONTAINER_OF_RE, "").replace(OF_RE, "").trim();
   if (container && size === undefined) {
     // "2 packs of 12 eggs": a size or count after the container describes one pack.
@@ -142,7 +146,14 @@ function parseSegment(raw: string): ParsedSegment {
       }
     }
   }
-  const name = rest.replace(/\s+/g, " ").replace(EDGE_JUNK_RE, "").trim();
+  let name = rest.replace(/\s+/g, " ").replace(EDGE_JUNK_RE, "").trim();
+  // "2 tins of tomatoes" must never match fresh produce: keep the tinned intent
+  // in the name so it resolves to a tinned product ("tinned tomatoes") or stays
+  // unmatched and visible, instead of silently pricing the fresh item.
+  if (tinned && !/^(?:tinned|canned)\b/i.test(name)) {
+    const { category } = canonicalise(name);
+    if (category !== null && FRESH_CATEGORIES.has(category)) name = `tinned ${name}`;
+  }
 
   return {
     name,

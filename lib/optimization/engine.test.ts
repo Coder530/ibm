@@ -650,8 +650,10 @@ describe("F7 comparison honesty", () => {
     expect(result.recommended?.savingVsNextBestMinor).toBe(0);
     expect(result.explanation).not.toContain("more overall");
     expect(result.explanation).toMatch(
-      /lidl-l1 is £0\.50 cheaper on groceries on the 1 item both price, but it's \d+\.\d miles round trip and it doesn't price the same items, so it isn't directly comparable\./
+      /lidl-l1 is £0\.50 cheaper on groceries on the 1 item both price \(\d+\.\d miles round trip\), but it doesn't price the same items, so it isn't directly comparable\./
     );
+    // R7-1: distance is never framed as the drawback when the item sets differ.
+    expect(result.explanation).not.toContain("but it's");
   });
 
   it("L1: under 'fewest-stores' with equal store counts the trade-off is a shorter trip (case B)", () => {

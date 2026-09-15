@@ -310,8 +310,11 @@ function compareWithAlternative(
   if (comparison === undefined) return { savingMinor: 0, basis: undefined };
 
   const shared = best?.shared ?? sharedGroceries(recommended, comparison);
+  // A fallback comparison that prices fewer items can't support a saving: some
+  // other store may sell the shared item for less, and the stamp would overstate.
+  const comparable = comparison.itemsPriced >= recommended.itemsPriced;
   return {
-    savingMinor: Math.max(0, shared.differenceMinor),
+    savingMinor: comparable ? Math.max(0, shared.differenceMinor) : 0,
     basis: {
       itemsCompared: shared.itemsCompared,
       comparisonItemsPriced: comparison.itemsPriced,

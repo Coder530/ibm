@@ -257,7 +257,7 @@ describe("F7 explanation honesty", () => {
     );
     expect(text).toMatch(/^Your cheapest option once travel is counted is Aldi Camden \(/);
     expect(text).toContain(
-      "Tesco Express is £0.50 cheaper on groceries on the 1 item both price, but it's 3.0 miles round trip and it doesn't price the same items, so it isn't directly comparable."
+      "Tesco Express is £0.50 cheaper on groceries on the 1 item both price (3.0 miles round trip), but it doesn't price the same items, so it isn't directly comparable."
     );
     expect(text).not.toContain("more overall");
   });

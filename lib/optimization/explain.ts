@@ -100,16 +100,20 @@ function comparisonSentence(plan: BasketPlan, prefs: Preferences, basis: SavingB
   );
   const cheaper = `${name}${estimated ? " (estimated quantity)" : ""} is ${formatMinor(-basis.groceryDifferenceMinor)} cheaper on groceries${scope}`;
   const distance = `${formatDistance(basis.comparison.totalDistanceMeters)} round trip`;
+  // An overall figure or trade-off over different item sets would count
+  // unmatched items as travel, whatever the priority.
+  if (!sameItems(recommendedIds, pricedItemIds(basis.comparison))) {
+    return `${cheaper} (${distance}), but it doesn't price the same items, so it isn't directly comparable.`;
+  }
+  // Only frame distance as the drawback when the comparison really is the longer trip.
+  const longerTrip = basis.comparison.totalDistanceMeters > plan.totalDistanceMeters;
   if (prefs.priority === "cheapest") {
-    // An overall figure over different item sets would count unmatched items as travel.
-    if (!sameItems(recommendedIds, pricedItemIds(basis.comparison))) {
-      return `${cheaper}, but it's ${distance} and it doesn't price the same items, so it isn't directly comparable.`;
-    }
     const extraMinor = basis.comparison.effectiveCostMinor - plan.effectiveCostMinor;
-    return extraMinor > 0
+    return extraMinor > 0 && longerTrip
       ? `${cheaper}, but it's ${distance}, so once travel and time are counted it costs ${formatMinor(extraMinor)} more overall.`
       : `${cheaper} (${distance}).`;
   }
+  if (!longerTrip) return `${cheaper} (${distance}).`;
   const tradeOff =
     prefs.priority === "fewest-stores" && basis.comparison.stores.length === plan.stores.length
       ? "a shorter trip"

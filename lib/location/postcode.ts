@@ -1,6 +1,6 @@
 // Standard UK postcode format regex, including the special "GIR 0AA" case.
 const UK_POSTCODE_RE =
-  /^(GIR ?0AA|[A-PR-UWYZ][A-HK-Y0-9][A-HJKPS-UW0-9]?[ABEHMNPRV-Y]? ?[0-9][ABD-HJLNP-UW-Z]{2})$/i;
+  /^([A-PR-UWYZ0-9][A-HK-Y0-9][AEHMNPRTVXY0-9]?[ABEHMNPRVWXY0-9]?\s?[0-9][ABD-HJLNP-UW-Z]{2}|GIR\s?0AA)$/i;
 
 /**
  * Normalises free-form user input into a canonical UK postcode ("SW1A 1AA").

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empathy Map — Easy Grocery Shopping App</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f4f6f9;
+      color: #1a1a2e;
+      min-height: 100vh;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #1a1a2e;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    header .persona-badge {
+      display: inline-block;
+      margin-top: 0.75rem;
+      background: #1a1a2e;
+      color: #fff;
+      padding: 0.35rem 1rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      max-width: 1200px;
+      margin: 0 auto 1.25rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 1.5rem 1.5rem 1.75rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      border-top: 5px solid var(--accent);
+    }
+
+    .card h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+
+    .card h2 .emoji { font-size: 1.25rem; }
+
+    .card h3 {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #888;
+      margin: 1rem 0 0.4rem;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .card ul li {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      padding-left: 1.1rem;
+      position: relative;
+      color: #333;
+    }
+
+    .card ul li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .card.quote ul li {
+      font-style: italic;
+      color: #444;
+    }
+
+    .card-sees    { --accent: #3b82f6; }
+    .card-hears   { --accent: #8b5cf6; }
+    .card-thinks  { --accent: #f59e0b; }
+    .card-says    { --accent: #10b981; }
+    .card-pains   { --accent: #ef4444; }
+    .card-gains   { --accent: #22c55e; }
+
+    .summary-row {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .summary-card {
+      background: #1a1a2e;
+      color: #fff;
+      border-radius: 16px;
+      padding: 1.75rem 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    }
+
+    .summary-card h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #facc15;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+
+    .summary-card p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: #d1d5db;
+    }
+
+    .summary-card strong {
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e5e7eb;
+      font-size: 0.75rem;
+      color: #9ca3af;
+    }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 560px) {
+      .grid { grid-template-columns: 1fr; }
+      header h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Empathy Map</h1>
+    <p>Easy Grocery Shopping App</p>
+    <span class="persona-badge">🎓 Budget-Conscious Student</span>
+  </header>
+
+  <div class="grid">
+
+    <div class="card card-sees">
+      <h2><span class="emoji">👁️</span> Sees</h2>
+      <ul>
+        <li>Price tags and promotional offers everywhere in physical stores</li>
+        <li>Friends and flatmates also trying to stretch their budgets</li>
+        <li>Social media posts about money-saving hacks, meal prep, and student deals</li>
+        <li>Multiple supermarkets and corner shops within walking or cycling distance</li>
+        <li>Long receipts at checkout with surprise totals</li>
+        <li>Other shoppers filling trolleys with branded products they cannot afford</li>
+      </ul>
+    </div>
+
+    <div class="card card-hears">
+      <h2><span class="emoji">👂</span> Hears</h2>
+      <ul>
+        <li>Flatmates recommending cheaper alternatives or specific stores</li>
+        <li>Family advice about which brands to trust versus avoid</li>
+        <li>Notifications from loyalty apps and discount services</li>
+        <li>News about rising food prices and the cost-of-living crisis</li>
+        <li>Peers talking about which supermarket is cheapest this week</li>
+        <li>Store staff announcing promotions over the tannoy</li>
+      </ul>
+    </div>
+
+    <div class="card card-thinks">
+      <h2><span class="emoji">💭</span> Thinks &amp; Feels</h2>
+      <h3>Thoughts</h3>
+      <ul class="quote">
+        <li>"I need to make sure I'm getting the best price before I commit to this shop"</li>
+        <li>"I don't want to visit three different stores just to save a few pounds"</li>
+        <li>"I always forget which brand I liked last time"</li>
+        <li>"What if there's a cheaper option two streets away?"</li>
+        <li>"I wish I could plan my whole week's shopping in one go"</li>
+      </ul>
+      <h3>Feelings</h3>
+      <ul>
+        <li>Anxious about overspending and running out of budget</li>
+        <li>Frustrated by the time wasted comparing prices manually</li>
+        <li>Relieved when a trusted brand is on offer</li>
+        <li>Satisfied when the final total comes in under budget</li>
+        <li>Overwhelmed by too many choices with no clear price ranking</li>
+      </ul>
+    </div>
+
+    <div class="card card-says">
+      <h2><span class="emoji">🗣️</span> Says &amp; Does</h2>
+      <h3>Says</h3>
+      <ul class="quote">
+        <li>"I always check if there's something cheaper before buying"</li>
+        <li>"I stick to certain brands because I know what I'm getting"</li>
+        <li>"I hate walking all the way there and finding it's sold out"</li>
+        <li>"If I could just sort everything by price I'd be sorted"</li>
+      </ul>
+      <h3>Does</h3>
+      <ul>
+        <li>Compares prices manually on multiple apps or websites before shopping</li>
+        <li>Favourites or screenshots products they want to buy again</li>
+        <li>Walks or cycles to nearby stores rather than travelling far</li>
+        <li>Creates mental or written shopping lists and ticks items off</li>
+        <li>Abandons a basket when the total gets too high</li>
+        <li>Returns to the same store out of habit, even if unaware of better options nearby</li>
+      </ul>
+    </div>
+
+    <div class="card card-pains">
+      <h2><span class="emoji">😣</span> Pains</h2>
+      <ul>
+        <li>No single place to compare prices across nearby stores</li>
+        <li>Forgetting which brands they liked and having to relearn each time</li>
+        <li>Wasted trips to stores that are out of stock or too expensive</li>
+        <li>Spending too much time planning instead of just shopping</li>
+        <li>Loyalty schemes that are hard to understand or require separate apps</li>
+        <li>Hidden costs such as delivery fees or minimum spends ruining the budget plan</li>
+        <li>App experiences that are cluttered, slow, or hard to navigate on a phone</li>
+      </ul>
+    </div>
+
+    <div class="card card-gains">
+      <h2><span class="emoji">🎉</span> Gains</h2>
+      <ul>
+        <li>Instantly knowing which nearby store has the lowest price for each item</li>
+        <li>A personalised favourites list that recalls preferred brands automatically</li>
+        <li>A single ranked view of products sorted cheapest first</li>
+        <li>An optimised shopping route or store recommendation based on current prices and proximity</li>
+        <li>Confidence that they are always getting the best deal without extra effort</li>
+        <li>A faster, less stressful shopping experience that fits around a busy student schedule</li>
+        <li>Reduced food waste through better planning and consistent brand choices</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="summary-row">
+    <div class="summary-card">
+      <h2><span>🎯</span> Summary</h2>
+      <p>
+        The budget-conscious student wants <strong>certainty that they are spending as little as possible</strong>,
+        with <strong>minimal effort and wasted time</strong>. They value price transparency, proximity, and the ability
+        to remember what worked before. The app must reduce friction at every step — from discovery to checkout — by
+        sorting by price, surfacing nearby stores, and remembering their favourite brands so they never have to start
+        from scratch.
+      </p>
+    </div>
+  </div>
+
+  <footer>Made with IBM Bob</footer>
+
+</body>
+</html>

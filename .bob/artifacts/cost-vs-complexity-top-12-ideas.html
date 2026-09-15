@@ -1,0 +1,289 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cost vs Complexity — Top 12 Ideas</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    background: #f7f8fa;
+    color: #1f2328;
+    padding: 36px 24px 56px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .page { max-width: 860px; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 28px; }
+  header h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.2px; }
+  header p  { font-size: 13px; color: #57606a; margin-top: 4px; }
+
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    justify-content: center; margin-bottom: 24px;
+  }
+  .leg { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #57606a; }
+  .dot { width: 13px; height: 13px; border-radius: 50%; flex-shrink: 0; }
+  .dot-p0   { background: #3b82d4; }
+  .dot-p1   { background: #7c5cd8; }
+  .dot-p2   { background: #e6920a; }
+  .dot-pain { background: #ef4444; }
+  .dot-gain { background: #16a34a; }
+
+  .chart-wrap {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px 20px 12px;
+  }
+
+  /* outer positioning shell gives room for y-axis labels */
+  .chart-shell {
+    position: relative;
+    padding-left: 56px;
+  }
+
+  .y-axis-label {
+    position: absolute;
+    left: 0; top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.7px; color: #8b949e; white-space: nowrap;
+  }
+  .y-end-label {
+    position: absolute; left: 2px;
+    font-size: 10px; font-weight: 600; white-space: nowrap;
+  }
+  .y-end-label.top    { top: 4px;    color: #16a34a; }
+  .y-end-label.bottom { bottom: 28px; color: #ef4444; }
+
+  .chart-area {
+    position: relative;
+    width: 100%; height: 560px;
+    border-left: 2px solid #d0d7de;
+    border-bottom: 2px solid #d0d7de;
+
+    /* soft quadrant tint */
+    background-image:
+      linear-gradient(to right,  rgba(239,68,68,0.04) 50%, rgba(22,163,74,0.04) 50%),
+      linear-gradient(to bottom, rgba(22,163,74,0.04) 50%, rgba(239,68,68,0.04) 50%);
+  }
+
+  /* quadrant dividers */
+  .chart-area::before {
+    content: ""; position: absolute;
+    left: 50%; top: 0; bottom: 0;
+    width: 1px; background: #e5e7eb;
+  }
+  .chart-area::after {
+    content: ""; position: absolute;
+    top: 50%; left: 0; right: 0;
+    height: 1px; background: #e5e7eb;
+  }
+
+  /* quadrant corner labels */
+  .q-label {
+    position: absolute;
+    font-size: 9.5px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.5px; color: #c9d1d9;
+    pointer-events: none;
+  }
+  .q-tl { top: 8px;  left: 10px; }
+  .q-tr { top: 8px;  right: 10px; text-align: right; }
+  .q-bl { bottom: 8px; left: 10px; }
+  .q-br { bottom: 8px; right: 10px; text-align: right; }
+
+  /* Points */
+  .pt {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .pt-bubble {
+    display: flex; align-items: center; gap: 7px;
+    background: rgba(255,255,255,0.92);
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 4px 10px 4px 5px;
+    white-space: nowrap;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .pt-circle {
+    width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0;
+  }
+  .pt-text {
+    font-size: 11.5px; font-weight: 600; color: #1f2328;
+  }
+
+  /* colour variants for border */
+  .pt-p0   .pt-bubble { border-color: #93c5fd; }
+  .pt-p1   .pt-bubble { border-color: #c4b5fd; }
+  .pt-p2   .pt-bubble { border-color: #fcd34d; }
+  .pt-pain .pt-bubble { border-color: #fca5a5; }
+  .pt-gain .pt-bubble { border-color: #86efac; }
+
+  /* x-axis row */
+  .x-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 6px 0 0;
+  }
+  .x-row span { font-size: 10px; font-weight: 600; }
+  .x-left  { color: #ef4444; }
+  .x-right { color: #16a34a; }
+  .x-title {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.7px; color: #8b949e;
+  }
+
+  footer {
+    margin-top: 32px; text-align: center;
+    font-size: 11px; color: #8b949e;
+    border-top: 1px solid #e5e7eb; padding-top: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Cost vs Complexity — Top 12 Ideas</h1>
+    <p>Grocery Price Optimizer · from product spec, process map &amp; empathy map</p>
+  </header>
+
+  <div class="legend">
+    <span class="leg"><span class="dot dot-p0"></span>P0 Core</span>
+    <span class="leg"><span class="dot dot-p1"></span>P1 Enhancement</span>
+    <span class="leg"><span class="dot dot-p2"></span>P2 Future</span>
+    <span class="leg"><span class="dot dot-pain"></span>Pain point</span>
+    <span class="leg"><span class="dot dot-gain"></span>User gain</span>
+  </div>
+
+  <div class="chart-wrap">
+    <div class="chart-shell">
+
+      <div class="y-axis-label">Cost</div>
+      <div class="y-end-label top">Cheap ↑</div>
+      <div class="y-end-label bottom">Expensive ↓</div>
+
+      <div class="chart-area">
+
+        <span class="q-label q-tl">Complex · Cheap</span>
+        <span class="q-label q-tr">Simple · Cheap</span>
+        <span class="q-label q-bl">Complex · Expensive</span>
+        <span class="q-label q-br">Simple · Expensive</span>
+
+        
+
+        
+        <div class="pt pt-p0" style="left:86%;top:10%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#3b82d4"></div>
+            <span class="pt-text">Shopping list input</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-gain" style="left:80%;top:22%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#16a34a"></div>
+            <span class="pt-text">Sort products cheapest first</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p0" style="left:72%;top:14%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#3b82d4"></div>
+            <span class="pt-text">Mobile-first UI</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p1" style="left:22%;top:18%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#7c5cd8"></div>
+            <span class="pt-text">Unit price normalisation</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-gain" style="left:38%;top:8%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#16a34a"></div>
+            <span class="pt-text">Personalised brand recall</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p1" style="left:16%;top:31%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#7c5cd8"></div>
+            <span class="pt-text">Ingredient substitutions</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p0" style="left:60%;top:64%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#3b82d4"></div>
+            <span class="pt-text">Store discovery &amp; geolocation</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p0" style="left:68%;top:76%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#3b82d4"></div>
+            <span class="pt-text">Single-store basket comparison</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-pain" style="left:28%;top:72%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#ef4444"></div>
+            <span class="pt-text">Cross-store price comparison</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p0" style="left:10%;top:84%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#3b82d4"></div>
+            <span class="pt-text">Real-time retailer pricing</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p1" style="left:18%;top:91%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#7c5cd8"></div>
+            <span class="pt-text">Multi-store optimisation engine</span>
+          </div>
+        </div>
+
+        
+        <div class="pt pt-p2" style="left:8%;top:93%">
+          <div class="pt-bubble">
+            <div class="pt-circle" style="background:#e6920a"></div>
+            <span class="pt-text">Price history &amp; alerts</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="x-row">
+        <span class="x-left">← Complex</span>
+        <span class="x-title">Complexity</span>
+        <span class="x-right">Simple →</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>Made with IBM Bob</footer>
+</body>
+</html>
